@@ -1,0 +1,306 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .logo {
+    margin-top: 15px;
+  }
+
+  .l_top {
+    display: none;
+  }
+
+  .menu ul li a {
+    padding: 5px 0px !important;
+  }
+
+  .btn-search {
+    padding-left: 0;
+    padding-top: 11px;
+  }
+
+  .d_search {
+    top: -9px;
+    min-width: 205px;
+  }
+
+  .d_search[data-bs-popper] {
+    left: 60px;
+  }
+
+  /* Header End */
+  /* Slider Start */
+  .c-ind {
+    right: -64%;
+    bottom: -12.3%;
+    margin-right: 81%;
+    margin-left: 75%;
+}
+
+  .c-ind [data-bs-target] {
+    width: 1px;
+    height: 14px;
+  }
+
+  .c-c-p {
+    bottom: 0.25rem;
+    width: 83%;
+    padding-bottom: 0;
+  }
+
+  .c-c-p h1 {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .c-c-p p {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 9px;
+  }
+
+  .c-btn {
+    width: 31%;
+    height: 25px;
+    font-size: 7px;
+}
+
+  .c-fw-p {
+    padding-left: 4px;
+  }
+
+  .c-bot-prev, .c-bot-next {
+    bottom: -9px;
+  }
+
+  .c-bot-prev {
+    left: 67%;
+  }
+
+  .c-bot-next {
+    right: 10%;
+  }
+
+  .c-bin-p, .c-bin-n {
+    font-size: 12px;
+}
+
+  /* Slider End */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* Header Start*/
+  .logo {
+    margin-top: 15px;
+  }
+
+  .l_top {
+    display: none;
+  }
+
+  .menu ul li a {
+    padding: 5px 0px !important;
+  }
+
+  .btn-search {
+    padding-left: 0;
+    padding-top: 11px;
+  }
+
+  .d_search {
+    top: -9px;
+  }
+
+  .d_search[data-bs-popper] {
+    left: 60px;
+  }
+
+  /* Header End */
+  /* Slider Start */
+  .c-ind {
+    right: -63%;
+    bottom: -7.3%;
+    margin-right: 79%;
+    margin-left: 78%;
+  }
+
+  .c-ind [data-bs-target] {
+    width: 1px;
+    height: 14px;
+  }
+
+  .c-c-p {
+    bottom: -0.75rem;
+  }
+
+  .c-c-p h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .c-c-p p {
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 20px;
+  }
+
+  .c-btn {
+    width: 31%;
+    height: 25px;
+    font-size: 8px;
+  }
+
+  .c-fw-p {
+    padding-left: 4px;
+  }
+
+  .c-bot-prev, .c-bot-next {
+    bottom: -9px;
+  }
+
+  .c-bot-prev {
+    left: 72%;
+  }
+
+  .c-bot-next {
+    right: 10%;
+  }
+
+  .c-bin-p, .c-bin-n {
+    font-size: 14px;
+  }
+
+  /* Slider End */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* Header Start */
+  .menu ul li a {
+    padding: 5px 0px !important;
+  }
+
+  .btn-search {
+    padding-left: 0;
+    padding-top: 11px;
+  }
+
+  .d_search {
+    top: -9px;
+  }
+
+  .d_search[data-bs-popper] {
+    left: 60px;
+  }
+
+  /* Header End */
+  /* Slider Start */
+  .c-ind {
+    right: 64%;
+    bottom: -5.3%;
+    margin-right: 17%;
+    margin-left: 16%;
+  }
+
+  .c-ind [data-bs-target] {
+    width: 1px;
+    height: 14px;
+  }
+
+  .c-c-p {
+    bottom: 1.25rem;
+  }
+
+  .c-c-p h1 {
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+
+  .c-c-p p {
+    font-size: 11px;
+    line-height: 19px;
+    margin-bottom: 25px;
+  }
+
+  .c-btn {
+    width: 30%;
+    height: 30px;
+    font-size: 11px;
+  }
+
+  .c-fw-p {
+    padding-left: 8px;
+  }
+
+  .c-bot-prev, .c-bot-next {
+    bottom: -9px;
+  }
+
+  .c-bot-prev {
+    left: 11%;
+  }
+
+  .c-bot-next {
+    right: 76%;
+  }
+
+  .c-bin-p, .c-bin-n {
+    font-size: 14px;
+  }
+
+  /* Slider End */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /* Slider Start */
+  .c-ind {
+    right: 66%;
+    bottom: -3%;
+    margin-right: 16%;
+    margin-left: 15%;
+  }
+
+  .c-ind [data-bs-target] {
+    width: 2px;
+    height: 18px;
+  }
+
+  .c-c-p {
+    bottom: 3.25rem;
+  }
+
+  .c-c-p h1 {
+    font-size: 42px;
+    margin-bottom: 25px;
+  }
+
+  .c-c-p p {
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
+
+  .c-btn {
+    width: 30%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .c-fw-p {
+    padding-left: 15px;
+  }
+
+  .c-bot-next {
+    right: 78%;
+  }
+
+  /* Slider End */
+}
+
+/* // Extra large devices (Extralarge desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* // Extra Extra large devices (Extra extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {}
