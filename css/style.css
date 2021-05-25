@@ -179,6 +179,10 @@
    font-size: 16px;
    background-color: #FFFFFF;
  }
+.c-btn:hover{
+  background-color: #8E8E8E;
+  color: #FFFFFF;
+}
 
  .c-fw-p {
    padding-left: 1.5rem;
