@@ -180,7 +180,7 @@
    background-color: #FFFFFF;
  }
 .c-btn:hover{
-  background-color: #8E8E8E;
+  background-color: #333333;
   color: #FFFFFF;
 }
 
@@ -332,6 +332,10 @@
    padding: 13px 35px 15px;
    border: 1px solid #333333;
  }
+.f-button:hover{
+  color: #FFFFFF;
+  background-color: #333333;
+}
 
  /* 4th Part End */
  /* Feature End*/
