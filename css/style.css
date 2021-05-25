@@ -71,6 +71,7 @@
  }
 
  .l_top {
+   font-size: 37px;
    margin-bottom: -8px;
  }
 
@@ -99,7 +100,7 @@
 
  .btn-search {
    color: #8E8E8E !important;
-   padding-top: 0px;
+   padding-top: 19px;
  }
 
  .btn-search:hover {
@@ -178,11 +179,8 @@
    font-size: 16px;
    background-color: #FFFFFF;
  }
-.c-btn:hover{
-  background-color:#333333;
-  color:#FFFFFF;
-}
- .c-fw-p{
+
+ .c-fw-p {
    padding-left: 1.5rem;
  }
 
@@ -210,3 +208,126 @@
  }
 
  /* SLider End*/
+ /* Feature Start */
+ /* 1st part Start */
+ .feature {}
+
+ .f-details {}
+
+ .f-top {
+   border: 1px solid #333333;
+   width: 1px;
+   height: 50px;
+   display: inline-block;
+   margin-bottom: 25px;
+ }
+
+ .f-welcome {
+   font-family: Lato-Regular;
+   font-size: 30px;
+   color: #333333;
+   text-transform: uppercase;
+ }
+
+ /* 1st part End */
+ /* 2nd Part Start */
+ .f-para {
+   line-height: 29px;
+   margin-top: 35px;
+   margin-bottom: 106px;
+ }
+
+ /* 2nd Part End */
+ /* 3rd Part Start */
+ .c-margin {
+   margin-bottom: 100px;
+ }
+
+ .featurelp {
+   border: 1px solid #8E8E8E;
+   text-align: center;
+   padding: 0 11px;
+ }
+
+ .f-lastlogo {}
+
+ .f-lastlogo i {
+   font-size: 60px;
+   padding: 10px;
+   background-color: white;
+   margin-top: -32px;
+ }
+
+ .f-lasttitle {
+   font-family: Lato-Bold;
+   font-size: 18px;
+   color: #333333;
+   text-transform: uppercase;
+   margin-top: 23px;
+   margin-bottom: 18px;
+ }
+
+ .f-hrcontrol {
+   width: 14%;
+   margin: 0 auto;
+ }
+
+ .f-lastpara {
+   margin: 15px 0 33px;
+ }
+
+ .featurelp:hover {
+   border: 1px solid #333333;
+ }
+
+ .featurelp ul {
+   cursor: pointer;
+ }
+
+ .f-lastlogo i:hover,
+ .featurelp ul:hover {
+   color: #333333;
+ }
+
+ /* 3rd Part End */
+ /* 4th Part Start */
+ .f-icoffee img {
+   width: 100%;
+   height: 431px;
+   margin-top: 9px;
+ }
+
+ .f-content {
+   padding-left: 35px;
+ }
+
+ .f-content h3 {
+   font-family: 'Lato-Regular';
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #333333;
+ }
+
+ .f-lp1 {
+   margin: 30px 0 40px;
+ }
+
+ .f-lp2 {
+   margin-bottom: 49px;
+ }
+
+ .f-lp1, .f-lp2 {
+   line-height: 29px;
+ }
+
+ .f-button {
+   font-family: Roboto-Medium;
+   color: #333333;
+   width: 35%;
+   height: 50px;
+   padding: 13px 35px 15px;
+   border: 1px solid #333333;
+ }
+
+ /* 4th Part End */
+ /* Feature End*/
