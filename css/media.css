@@ -1,5 +1,10 @@
-/* // Extra small devices (portrait phones, less than 576px) */
+ /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .l_text {
+    font-size: 23px;
+    padding-left: 5px;
+  }
+
   .logo {
     margin-top: 15px;
   }
@@ -33,7 +38,7 @@
     bottom: -12.3%;
     margin-right: 81%;
     margin-left: 75%;
-}
+  }
 
   .c-ind [data-bs-target] {
     width: 1px;
@@ -52,8 +57,8 @@
   }
 
   .c-c-p p {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 11px;
     margin-bottom: 9px;
   }
 
@@ -61,7 +66,7 @@
     width: 31%;
     height: 25px;
     font-size: 7px;
-}
+  }
 
   .c-fw-p {
     padding-left: 4px;
@@ -81,9 +86,88 @@
 
   .c-bin-p, .c-bin-n {
     font-size: 12px;
-}
+  }
 
   /* Slider End */
+  /* Feature Start */
+  .f-top {
+    height: 30px;
+    margin-bottom: 12px;
+  }
+
+  .f-welcome {
+    font-size: 23px;
+  }
+
+  .f-para {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+  .featurelp {
+    margin-top: 40px;
+  }
+
+  .f-lasttitle {
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+  }
+
+  .f-lastpara {
+    font-size: 14px;
+    margin: 15px 0 23px;
+  }
+
+  .c-fs li {
+    font-size: 14px;
+  }
+
+  .c-margin {
+    margin-bottom: 50px;
+  }
+  .f-icoffee img {
+      width: 100%;
+      height: 264px;
+      margin-top: 0px;
+  }
+
+  .f-content {
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+  .f-content h3 {
+    font-size: 23px;
+}
+
+.f-lp1, .f-lp2 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+  .f-lp1 {
+      margin: 16px 0 24px;
+  }
+
+  .f-lp2 {
+    margin-bottom: 30px;
+}
+
+.f-button {
+  width: 38%;
+  height: 32px;
+  padding: 3px 9px 7px;
+}
+
+  .c-fontsize1 {
+    font-size: 11px;
+}
+  .c-fontsize2 {
+    font-size: 11px;
+}
+
+  /* Feature End */
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -134,12 +218,12 @@
   }
 
   .c-c-p h1 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 15px;
   }
 
   .c-c-p p {
-    font-size: 11px;
+    font-size: 16px;
     line-height: 15px;
     margin-bottom: 20px;
   }
@@ -171,6 +255,56 @@
   }
 
   /* Slider End */
+  /* Feature Start */
+  .f-top {
+    height: 36px;
+    margin-bottom: 19px;
+  }
+
+  .c-margin {
+    margin-bottom: 60px;
+  }
+
+  .f-para {
+    line-height: 22px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .featurelp {
+    margin-top: 40px;
+  }
+
+  .f-content {
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .f-lp1, .f-lp2 {
+    line-height: 24px;
+  }
+
+  .f-lp1 {
+    margin: 23px 0 32px;
+  }
+
+  .f-lp2 {
+    margin-bottom: 40px;
+  }
+
+  .f-button {
+    width: 26%;
+    height: 40px;
+    padding: 8px 13px 13px;
+  }
+
+  .c-fontsize1 {
+    font-size: 12px;
+  }
+
+  .c-fontsize2 {}
+
+  /* Feature End */
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -218,7 +352,7 @@
   }
 
   .c-c-p p {
-    font-size: 11px;
+    font-size: 16px;
     line-height: 19px;
     margin-bottom: 25px;
   }
@@ -250,6 +384,47 @@
   }
 
   /* Slider End */
+  /* Feature Start */
+  .c-margin {
+    margin-bottom: 60px;
+  }
+
+  .f-top {
+    margin-bottom: 19px;
+  }
+
+  .f-para {
+    line-height: 28px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .featurelp {
+    margin-top: 40px;
+  }
+
+  .f-content {
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .f-lp1, .f-lp2 {
+    line-height: 27px;
+  }
+
+  .f-lp1 {
+    margin: 27px 0 37px;
+  }
+
+  .f-lp2 {
+    margin-bottom: 46px;
+  }
+
+  .f-button {
+    width: 29%;
+  }
+
+  /* Feature End */
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -297,10 +472,42 @@
   }
 
   /* Slider End */
+  /* Feature Start */
+  .f-icoffee img {
+    height: 484px;
+  }
+
+  .f-lp1, .f-lp2 {
+    line-height: 27px;
+  }
+
+  .f-lp1 {
+    margin: 27px 0 37px;
+  }
+
+  .f-lp2 {
+    margin-bottom: 46px;
+  }
+
+  .f-button {
+    width: 40%;
+    height: 47px;
+    padding: 12px 35px 14px;
+  }
+
+  /* Feature End */
 }
 
 /* // Extra large devices (Extralarge desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  /* Feature Start */
+  .f-icoffee img {
+    height: 459px;
+  }
+
+  /* Feature End  */
+}
 
 /* // Extra Extra large devices (Extra extra large desktops, 1400px and up) */
 @media (min-width: 1400px) {}
